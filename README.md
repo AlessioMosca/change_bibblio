@@ -17,6 +17,13 @@ This Python script converts a BibTeX file (`.bib`) into a LaTeX file with `\bibi
 3. Specify the location and filename for the output LaTeX file.
 4. The script creates a LaTeX file with `\bibitem` entries based on the BibTeX data.
 
+## BibTeX to LaTeX `\bibitem` Conversion Guidelines
+
+- **Article (`@article`)**:
+  ```latex
+  \bibitem{key}
+  Author(s), ``Title,'' Journal, vol. Volume, no. Number, pp. Pages, Year.
+
 ## Dependencies
 
 - **Python 3.x**: Ensure Python 3.x is installed.
